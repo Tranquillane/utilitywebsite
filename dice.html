@@ -26,4 +26,22 @@
 document.getElementById("one").innerHTML = Math.floor(Math.random() * 101);
 }
 </script>
+
+<p id="two"></p>
+<button onclick="rand()">0-10</button>
+
+<script>
+	function rand() {
+		document.getElementById("two").innerHTML = Math.floor(Math.random() * 11);
+	}
+</script>
+
+<p id="three"></p>
+<button onclick="rando()">0-6</button>
+
+<script>
+	function rando() {
+		document.getElementById("three").innerHTML = Math.floor(Math.random() * 7);
+	}
+</script>
 </html>
