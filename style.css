@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font: sans-serif;
+    text-align: justify;
+}
+
+p {
+	margin-right: 20px;
+	font: sans-serif;
+	text-align: justify;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #f2f2f2;
+}
+
+.nav {
+	opacity:90%;
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 20px;
+    z-index:5;
+}
